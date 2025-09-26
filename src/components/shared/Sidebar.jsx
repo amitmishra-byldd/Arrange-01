@@ -33,7 +33,7 @@ const sidebarMenu = [
 
 export default function Sidebar() {
   return (
-    <div className="lg:fixed md:px-6 lg:top-20 lg:left-0 lg:w-[318px] flex flex-col justify-between lg:bg-white lg:h-[calc(100vh-50px)]">
+    <div className="lg:fixed md:px-6 lg:top-20 lg:left-0 lg:w-[317px] flex flex-col justify-between lg:bg-white lg:h-[calc(100vh-50px)]">
       <div className="flex-1 overflow-y-auto">
         <ul>
           {sidebarMenu.map((items, index) => (
